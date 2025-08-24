@@ -1,0 +1,63 @@
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #094d66;
+  background: linear-gradient(29deg,
+    var(--other-color) 25%, 
+    var(--primary-color) 40%, 
+    var(--other-color) 75%
+    );
+  border: solid 2px var(--text-color);
+  border-radius: 20px;
+}
+
+.logo {
+  font-size: var(--spacing-lg);
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: var(--spacing-lg);
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.CartWidget-container {
+  font-size: var(--spacing-lg);
+  cursor: pointer;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.CartWidget-container:hover {
+    color: var(--primary-color);
+}
+
+.bubble-number {
+  background-color: #e74c3c;
+  color: var(--text-color);
+  font-size: var(--spacing-sm);
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 0.2rem 0.4rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 15px;
+}
