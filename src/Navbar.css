@@ -24,23 +24,24 @@
 .navbar {
   display: flex;
   align-items: center;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
 }
 
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: var(--spacing-lg);
-  padding: 0;
+  gap: var(--spacing-md);
 }
 
 .nav-menu a {
   text-decoration: none;
+  padding: var(--spacing-sm) var(--spacing-md);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-menu :hover {
+  border-radius: 5px;
   color: var(--primary-color);
   background-color: var(--text-dark-color);
 }
