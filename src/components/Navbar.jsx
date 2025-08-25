@@ -4,7 +4,7 @@ import CartWidget from './CartWidget'
 function Navbar () {
     return (
         <header className="navbar-container">
-            <a href="#" className="logo">Cositas</a>
+            <h1><a href="#" className="logo">Cositas</a></h1>
             <nav className='navbar'>
                 <ul className="nav-menu">
                     <li><a href="#">Inicio</a></li>

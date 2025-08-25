@@ -1,0 +1,9 @@
+.items-list-container {
+    display: flex;
+    margin: var(--spacing-sm);
+    height: calc(80vh - var(--spacing-sm) - var(--spacing-sm));
+    border: solid 2px var(--text-color);
+    border-radius: 20px;
+    justify-content: center;
+    backdrop-filter: blur(50px);
+}

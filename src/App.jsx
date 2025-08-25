@@ -5,12 +5,13 @@
 import './App.css'
 // Componentes
 import Navbar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return(
     <>
       <Navbar />
-      <h1>¡Hola, mi primera página de React!</h1>
+      <ItemListContainer />
     </>
   );
 }
