@@ -35,7 +35,7 @@ body {
   --background-light-color: hsl(from var(--background-color) h s calc(l + 20));
 
   /* === Terceary Colors === */
-  --other-color: rgba(9, 77, 102, 1);
+  --other-color: hsl(196, 84%, 22%);
   --other-dark-color: hsl(from var(--other-color) h s calc(l - 20));
   --other-light-color: hsl(from var(--other-color) h s calc(l + 20));
 
