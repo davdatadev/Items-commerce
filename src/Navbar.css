@@ -4,13 +4,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #094d66;
   background: linear-gradient(29deg,
     var(--other-color) 25%, 
     var(--primary-color) 40%, 
-    var(--other-color) 75%
+    var(--other-color) 60%
     );
-  border: solid 2px var(--text-color);
+  border: solid 1px var(--primary-color);
   border-radius: 20px;
 }
 
